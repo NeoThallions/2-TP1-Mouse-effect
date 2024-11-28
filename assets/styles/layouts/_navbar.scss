@@ -1,0 +1,17 @@
+nav {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    height: 50px;
+
+    h3{
+        padding: 20px;
+    }
+    ul{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-right: 20px;
+        font-size: 0.9rem;
+        
+    }
+}
