@@ -24,4 +24,39 @@ body {
     margin: 0 auto;
     background-color: $back;
     color: whitesmoke;
+    cursor: none;
+}
+.followMouse1 {
+    position: absolute;
+    height: 5px;
+    width: 5px;
+    border-radius: 50px;
+    border: 2px solid rgb(211, 58, 58);
+    background-color: rgb(58, 211, 78);
+    transform: translate(-50%, -50%);
+    z-index: 5;
+}
+.followMouse2 {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    border-radius: 500px;
+    border: none;
+    background-color: rgb(171, 173, 171);
+    transform: translate(-50%, -50%);
+    mix-blend-mode: difference;
+    // opacity: 0.5;
+    z-index: 4;
+}
+.followMouse3 {
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    border-radius: 500px;
+    border: none;
+    background-color: rgb(20, 24, 21);
+    transform: translate(-50%, -50%);
+    mix-blend-mode: difference;
+    // opacity: 0.5;
+    z-index: 3;
 }

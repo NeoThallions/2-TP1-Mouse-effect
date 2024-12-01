@@ -2,20 +2,20 @@ nav {
     display: grid;
     grid-template-columns: 50% 50%;
 
-    h3{
+    h3 {
         padding: 20px;
     }
-    ul{
+    ul {
         display: flex;
         justify-content: space-between;
         align-items: center;
         margin-right: 20px;
         font-size: 0.9rem;
-        li:hover{
+        z-index: 100;
+        li:hover {
             transform: scale(1.15);
             cursor: pointer;
             color: rgb(96, 109, 104);
         }
-        
     }
 }

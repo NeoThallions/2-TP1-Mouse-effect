@@ -15,6 +15,45 @@ body {
   margin: 0 auto;
   background-color: rgb(39, 39, 39);
   color: whitesmoke;
+  cursor: none;
+}
+
+.followMouse1 {
+  position: absolute;
+  height: 5px;
+  width: 5px;
+  border-radius: 50px;
+  border: 2px solid rgb(211, 58, 58);
+  background-color: rgb(58, 211, 78);
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  z-index: 5;
+}
+
+.followMouse2 {
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  border-radius: 500px;
+  border: none;
+  background-color: rgb(171, 173, 171);
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  mix-blend-mode: difference;
+  z-index: 4;
+}
+
+.followMouse3 {
+  position: absolute;
+  height: 200px;
+  width: 200px;
+  border-radius: 500px;
+  border: none;
+  background-color: rgb(20, 24, 21);
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  mix-blend-mode: difference;
+  z-index: 3;
 }
 
 nav {
@@ -36,6 +75,7 @@ nav ul {
           align-items: center;
   margin-right: 20px;
   font-size: 0.9rem;
+  z-index: 100;
 }
 nav ul li:hover {
   -webkit-transform: scale(1.15);
@@ -89,6 +129,7 @@ footer {
   padding: 10px 0;
   margin: 30px 5px;
   border-radius: 10px;
+  width: 100%;
 }
 footer h4 {
   font-size: 0.9rem;
@@ -96,6 +137,7 @@ footer h4 {
 }
 footer .coreT {
   width: 160px;
+  z-index: 100;
 }
 footer .coreT h4 {
   text-align: center;
